@@ -15,7 +15,7 @@ fun CurrencyInformationDTO.toHistory() = History(
 )
 
 fun History.totalCurrencyChange(): String {
-    val localQuantity = localCurrencyQuantity.toCurrencyFormat()
+    val localQuantity = localCurrencyQuantity.toInt().toString()
     val foreignQuantity = foreignCurrencyQuantity.toCurrencyFormat()
     val total =
         (localCurrencyQuantity * foreignCurrencyQuantity).toCurrencyFormat()

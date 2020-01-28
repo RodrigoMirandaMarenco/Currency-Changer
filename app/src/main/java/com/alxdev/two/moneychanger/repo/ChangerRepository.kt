@@ -9,7 +9,6 @@ import com.alxdev.two.moneychanger.data.remote.Constants
 import com.alxdev.two.moneychanger.data.remote.CurrencyAPIService
 import com.alxdev.two.moneychanger.data.remote.CurrencyCountryAPIService
 import com.alxdev.two.moneychanger.data.remote.currency.CurrencyDTO
-import com.alxdev.two.moneychanger.data.remote.currencycountry.CurrencyCountryDTO
 import com.alxdev.two.moneychanger.ui.changer.CurrencyInformationDTO
 import com.alxdev.two.moneychanger.ui.changer.toCurrency
 import com.alxdev.two.moneychanger.ui.changer.toHistory
